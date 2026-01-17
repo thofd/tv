@@ -36,7 +36,7 @@ jobs:
           # git config --local user.email ${{ secrets.GIT_MAIL }}
           # git config --local user.name "thofd"
           git add .
-          git commit *.txt -m "Add generated file"
-          #git commit *.m3u -m "Add generated file"
+          # git commit *.txt -m "Add generated file"
+          git commit *.m3u -m "Add generated file"
           #git pull --rebase
           git push -f
